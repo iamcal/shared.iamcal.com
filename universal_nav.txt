@@ -1,0 +1,92 @@
+<style type="text/css" media="screen">
+
+#headnav {
+	background-color: #fff;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #404040;
+	font-size: 16px;
+	line-height: 100%;
+	border-bottom: 8px solid #69c;
+}
+
+#headnav div {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 800px;
+}
+
+#headnav h2 {
+	float: left;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 20px 0 0;
+	font-size: 24px;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+#headnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 26px;
+}
+
+#headnav ul li {
+	float: left;
+	margin-left: 10px;
+	background-color: #fff;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#headnav ul li.active {
+	background-color: #69c;
+	border-color: #69c;
+}
+
+#headnav ul li a:link,
+#headnav ul li a:visited,
+#headnav ul li a:hover {
+	text-decoration: none;
+	color: #666;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#headnav ul li.active a {
+	color: #404040;
+	font-weight: bold;
+}
+
+</style>
+<style type="text/css" media="print">
+
+#headnav {
+	display: none;
+}
+
+</style>
+
+<div id="headnav"><div>
+	<h2>iamcal.com</h2>
+	<ul>
+		<li<? if ($nav=='home'    ){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/">Weblog</a></li>
+		<li<? if ($nav=='book'    ){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/book/">Book</a></li>
+		<li<? if ($nav=='software'){ ?> class="active"<? } ?>><a href="http://software.iamcal.com/">Software</a></li>
+		<li<? if ($nav=='code'    ){ ?> class="active"<? } ?>><a href="http://code.iamcal.com/">Code</a></li>
+		<li<? if ($nav=='articles'){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/publish/">Articles</a></li>
+		<li<? if ($nav=='github'  ){ ?> class="active"<? } ?>><a href="http://github.iamcal.com/">GitHub</a></li>
+		<li<? if ($nav=='about'   ){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/about/">About</a></li>
+	</ul>
+</div></div>
