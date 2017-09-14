@@ -81,12 +81,12 @@
 <div id="headnav"><div>
 	<h2>iamcal.com</h2>
 	<ul>
-		<li<? if ($nav=='home'    ){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/">Weblog</a></li>
-		<li<? if ($nav=='book'    ){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/book/">Book</a></li>
+		<li<? if ($nav=='home'    ){ ?> class="active"<? } ?>><a href="https://www.iamcal.com/">Weblog</a></li>
+		<li<? if ($nav=='book'    ){ ?> class="active"<? } ?>><a href="https://www.iamcal.com/book/">Book</a></li>
 		<li<? if ($nav=='software'){ ?> class="active"<? } ?>><a href="http://software.iamcal.com/">Software</a></li>
-		<li<? if ($nav=='code'    ){ ?> class="active"<? } ?>><a href="http://code.iamcal.com/">Code</a></li>
-		<li<? if ($nav=='articles'){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/publish/">Articles</a></li>
+		<li<? if ($nav=='code'    ){ ?> class="active"<? } ?>><a href="https://code.iamcal.com/">Code</a></li>
+		<li<? if ($nav=='articles'){ ?> class="active"<? } ?>><a href="https://www.iamcal.com/publish/">Articles</a></li>
 		<li<? if ($nav=='github'  ){ ?> class="active"<? } ?>><a href="http://github.iamcal.com/">GitHub</a></li>
-		<li<? if ($nav=='about'   ){ ?> class="active"<? } ?>><a href="http://www.iamcal.com/about/">About</a></li>
+		<li<? if ($nav=='about'   ){ ?> class="active"<? } ?>><a href="https://www.iamcal.com/about/">About</a></li>
 	</ul>
 </div></div>
